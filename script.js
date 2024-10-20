@@ -1,10 +1,20 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const button = document.createElement('button'); // Crea un nuevo botón
-    button.textContent = 'Cambiar color de fondo';   // Texto del botón
-    document.body.appendChild(button);               // Añade el botón al cuerpo del documento
+    // Código existente para cambiar el color de fondo
+    const button = document.createElement('button');
+    button.textContent = 'Cambiar color de fondo';
+    document.body.appendChild(button);
 
-    button.addEventListener('click', function() {    // Función que se ejecuta al hacer clic
+    button.addEventListener('click', function() {
         const currentColor = document.body.style.backgroundColor;
-        document.body.style.backgroundColor = currentColor === 'peachpuff' ? 'lavender' : 'peachpuff'; // Cambia el color de fondo
+        document.body.style.backgroundColor = currentColor === 'peachpuff' ? 'lavender' : 'peachpuff';
+    });
+
+    // Nuevo código para ajustar el margen del cuerpo con la interacción de la barra lateral
+    document.getElementById('sidebar').addEventListener('mouseover', function() {
+        document.body.style.marginLeft = '250px';
+    });
+
+    document.getElementById('sidebar').addEventListener('mouseout', function() {
+        document.body.style.marginLeft = '80px';
     });
 });

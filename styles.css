@@ -56,3 +56,12 @@ footer {
     font-size: 0.9em;
     color: #666;
 }
+#profile-image {
+    width: 200px;  /* Ajusta este valor según tus necesidades */
+    height: 200px; /* Asegura que el alto y el ancho sean iguales para un círculo perfecto */
+    border-radius: 50%; /* Esto hace que la imagen sea redonda */
+    object-fit: cover; /* Esto asegura que la imagen cubra el espacio sin distorsionarse */
+    display: block;
+    margin: 20px auto; /* Esto centra la imagen horizontalmente y añade espacio arriba y abajo */
+}
+

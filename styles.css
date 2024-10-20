@@ -64,4 +64,32 @@ footer {
     display: block;
     margin: 20px auto; /* Esto centra la imagen horizontalmente y añade espacio arriba y abajo */
 }
+/* Estilos para la barra lateral */
+#sidebar {
+    position: fixed; /* Fija la barra lateral en la pantalla */
+    top: 0; /* Alinea la barra en la parte superior */
+    left: 0; /* Alinea la barra a la izquierda */
+    width: 250px; /* Ancho de la barra lateral */
+    height: 100vh; /* Altura total de la vista (viewport) */
+    background-color: #333; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 20px; /* Espaciado interno */
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho establecido */
+}
+
+#sidebar button {
+    display: block; /* Hace que los botones se apilen verticalmente */
+    width: 100%; /* Asegura que los botones llenen el ancho de la barra */
+    padding: 10px; /* Espaciado interno de los botones */
+    margin-bottom: 10px; /* Espacio entre botones */
+    background-color: #0056b3; /* Color de fondo de los botones */
+    color: white; /* Color del texto de los botones */
+    border: none; /* Remueve el borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor tipo 'pointer' para indicar que es clickeable */
+}
+
+#sidebar button:hover {
+    background-color: #003d80; /* Color de fondo al pasar el mouse */
+}
 

@@ -6,61 +6,65 @@
     <title>CV de Eduardo Jacob Martínez Chávez</title>
     
     <link rel="stylesheet" href="styles.css">
-
 </head>
 <body>
+    <!-- Botones de navegación -->
+    <nav>
+        <button onclick="scrollToSection('summary')">Summary</button>
+        <button onclick="scrollToSection('education')">Education</button>
+        <button onclick="scrollToSection('experience')">Experience</button>
+        <button onclick="scrollToSection('skills')">Skills</button>
+    </nav>
+
     <header>
         <h1>Eduardo Jacob Martínez Chávez</h1>
         <p><a href="mailto:jacob.mchavez@proton.me">jacob.mchavez@proton.me</a></p>
         <p><a href="https://www.linkedin.com/in/jacob-martinez-chavez">LinkedIn</a></p>
     </header>
-    <section>
-        <script src="script.js"></script>
 
+    <!-- Sección SUMMARY -->
+    <section id="summary">
         <h2>SUMMARY</h2>
-        <p> Aerospace Engineering graduate with hands-on experience in aeronautical technology development,
- focusing on UAV systems and propulsion. Led a multidisciplinary team in experimental rocketry com
-petitions, achieving significant advancements in propulsion and control systems. Skilled in CAD, C++,
- and cloud-based applications, with practical expertise in TIG/MIG welding and aircraft maintenance.</p>
+        <p>Aerospace Engineering graduate with hands-on experience...</p>
     </section>
-    <section>
-    <h2>Education</h2>
-    <ul>
-        <li><strong>Universidad Marista de Guadalajara</strong> — Bachelor of Engineering in Aerospace Engineering, GPA: 3.48/4.00 <span>May 2024</span></li>
-        <li><strong>UC San Diego</strong> — Summer Research Program in High Entropy Ceramics <span>Aug 2022</span></li>
-        <li><strong>CECAM</strong> — Class 1 Aircraft Maintenance Technician License <span>Jan 2023</span></li>
-        <li><strong>Institut für Sprachen und Kommunikation (ISK), Hannover</strong> — German Language Course, Level A2 (Currently Enrolled) <span>Present</span><br>Completed Level A1 in 2024</li>
-    </ul>
-</section>
 
-    <section>
-    <h2>Experience</h2>
-    <div class="job">
-        <div class="job-title">Propulsion Industries, Chief Rocket Engineer</div>
-        <div class="job-dates">Aug 2021 - May 2024</div>
-        <p>Led a team in the development and testing of experimental rocketry projects, achieving significant milestones in propulsion systems. Represented the team in international rocketry competitions such as LASC (Brazil) and ENMICE (Mexico).</p>
-    </div>
-    <div class="job">
-        <div class="job-title">UC San Diego, Research Assistant</div>
-        <div class="job-dates">Jun 2022 - Aug 2022</div>
-        <p>Conducted research in high entropy ceramics, contributing to advancements in materials science. Assisted with X-ray diffraction analysis and data interpretation.</p>
-    </div>
-</section>
-
-
-<section>
-    <h2>Skills</h2>
-    <ul>
-        <li><strong>Programming:</strong> Python, C/C++, MATLAB</li>
-        <li><strong>Tools:</strong> CAD, Cloud Applications, PyTorch, TensorFlow</li>
-        <li><strong>Technical Skills:</strong> TIG/MIG Welding, Aircraft Maintenance, X-ray Diffraction</li>
-        <li><strong>Languages:</strong> Spanish (Native), English (Fluent, TOEFL B2)</li>
-    </ul>
-</section>
-
+    <!-- Sección EDUCATION -->
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li><strong>Universidad Marista de Guadalajara</strong> — Bachelor of Engineering...</li>
+            <li><strong>UC San Diego</strong> — Summer Research Program...</li>
+            <!-- Más educación... -->
+        </ul>
     </section>
+
+    <!-- Sección EXPERIENCE -->
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="job">
+            <div class="job-title">Propulsion Industries, Chief Rocket Engineer</div>
+            <div class="job-dates">Aug 2021 - May 2024</div>
+            <p>Led a team in the development...</p>
+        </div>
+        <!-- Más experiencia... -->
+    </section>
+
+    <!-- Sección SKILLS -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li><strong>Programming:</strong> Python, C/C++, MATLAB</li>
+            <li><strong>Tools:</strong> CAD, Cloud Applications...</li>
+            <!-- Más habilidades... -->
+        </ul>
+    </section>
+
     <footer>
         <p>Hannover, Baja Sajonia, Alemania</p>
     </footer>
+
+    <!-- Vincular el script -->
+    <script src="script.js"></script>
 </body>
 </html>
+

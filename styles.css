@@ -88,6 +88,21 @@ footer {
     border-radius: 5px; /* Bordes redondeados */
     cursor: pointer; /* Cursor tipo 'pointer' para indicar que es clickeable */
 }
+/* Estilo para la sección SUMMARY con la imagen */
+.summary-header {
+    display: flex; /* Establece un contenedor flex */
+    align-items: center; /* Alinea verticalmente los elementos del contenedor */
+    margin-top: 20px; /* Añade un margen superior si es necesario */
+}
+
+.summary-header img {
+    width: 200px;  /* Ajusta este valor según tus necesidades */
+    height: 200px; /* Asegura que el alto y el ancho sean iguales para un círculo perfecto */
+    border-radius: 50%; /* Hace que la imagen sea redonda */
+    object-fit: cover; /* Asegura que la imagen cubra el espacio sin distorsionarse */
+    margin-right: 20px; /* Añade un margen a la derecha de la imagen */
+}
+
 /* Ajustar el contenido principal para que no se solape con la barra lateral */
 #main-content {
     margin-left: 260px; /* Ajusta esto al ancho de tu sidebar más un poco de espacio extra */

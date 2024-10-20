@@ -88,6 +88,11 @@ footer {
     border-radius: 5px; /* Bordes redondeados */
     cursor: pointer; /* Cursor tipo 'pointer' para indicar que es clickeable */
 }
+/* Ajustar el contenido principal para que no se solape con la barra lateral */
+#main-content {
+    margin-left: 260px; /* Ajusta esto al ancho de tu sidebar más un poco de espacio extra */
+}
+
 
 #sidebar button:hover {
     background-color: #003d80; /* Color de fondo al pasar el mouse */

@@ -3,25 +3,29 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #333;
     background-color: #fff;
-    line-height: 1.6;
-    margin: 20px;
+    line-height: 1.8;
+    margin: 0;
     padding: 20px;
-    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 header, section, footer {
     margin-bottom: 20px;
+    background: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 /* Estilos para los encabezados */
 h1 {
     color: #0056b3;
-    font-size: 28px;
+    font-size: 2rem;
 }
 
 h2 {
     color: #004080;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 /* Estilos para los enlaces */
@@ -36,14 +40,14 @@ a:hover {
 
 /* Estilos para la sección de encabezado */
 header {
-    border-bottom: 2px solid #0056b3;
-    padding-bottom: 10px;
+    border-bottom: 3px solid #0056b3;
 }
 
 /* Estilos para el pie de página */
 footer {
-    font-size: 0.8em;
-    border-top: 1px solid #ccc;
+    font-size: 0.9em;
+    border-top: 2px dashed #ccc;
     padding-top: 10px;
     color: #666;
 }
+
